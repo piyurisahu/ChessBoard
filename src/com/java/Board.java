@@ -5,7 +5,6 @@ import com.java.pieces.Piece;
 
 public class Board {
 	
-/*	private int[][] chessBoard=new int[8][8];*/
 	
 	private Piece[][] chessBoard=new Piece[8][8];
 	
