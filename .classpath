@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/ant-javafx.jar"/>
+	<classpathentry kind="lib" path="/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfxswt.jar"/>
+	<classpathentry kind="lib" path="/home/piyuri/softwares/jdk1.8.0_121/lib/javafx-mx.jar"/>
+	<classpathentry kind="lib" path="/home/piyuri/softwares/jdk1.8.0_121/jfxrt.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
