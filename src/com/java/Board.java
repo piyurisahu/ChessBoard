@@ -1,16 +1,20 @@
 package com.java;
+
+import com.java.pieces.Pawn;
+import com.java.pieces.Piece;
+
 public class Board {
 	
 /*	private int[][] chessBoard=new int[8][8];*/
 	
-	private Pawn[][] chessBoard=new Pawn[8][8];
+	private Piece[][] chessBoard=new Piece[8][8];
 	
-	public void addPiece(Pawn pawn, int i, int j) {
-		chessBoard[i][j]=pawn;
+	public void addPiece(Piece piece, int i, int j) {
+		chessBoard[i][j]=piece;
 		
 	}
 
-	public Pawn GetPiece(int i, int j) {
+	public Piece GetPiece(int i, int j) {
 		// TODO Auto-generated method stub
 		return this.chessBoard[i][j];
 	}
