@@ -18,6 +18,8 @@ public class TestKing {
 		King king=new King();
 		ArrayList<Pair<Integer, Integer>> actual=king.getMovesFrom(3, 4);
 	
+		assertFalse(actual.contains(new Pair<Integer, Integer>(3,4)));
+		
 		assertTrue(actual.contains(new Pair<Integer, Integer>(2,3)));
 		assertTrue(actual.contains(new Pair<Integer, Integer>(2,4)));
 		assertTrue(actual.contains(new Pair<Integer, Integer>(2,5)));

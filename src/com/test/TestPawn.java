@@ -1,5 +1,6 @@
 package com.test;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 import java.util.ArrayList;
@@ -17,6 +18,8 @@ public class TestPawn {
 	{
 		Pawn pawn=new Pawn();
 		ArrayList<Pair<Integer, Integer>> actual=pawn.getMovesFrom(2, 1);
+		assertFalse(actual.contains(new Pair<Integer, Integer>(2,1)));
+		
 		assertTrue(actual.contains(new Pair<Integer,Integer>(3,1)));
 		
 	}
