@@ -17,10 +17,10 @@ public class TestPawn {
 	public void getNextMoves()
 	{
 		Pawn pawn=new Pawn();
-		ArrayList<Pair<Integer, Integer>> actual=pawn.getMovesFrom(2, 1);
-		assertFalse(actual.contains(new Pair<Integer, Integer>(2,1)));
+		ArrayList<Pair> actual=pawn.getMovesFrom(2, 1);
+		assertFalse(actual.contains(new Pair(2,1)));
 		
-		assertTrue(actual.contains(new Pair<Integer,Integer>(3,1)));
+		assertTrue(actual.contains(new Pair(3,1)));
 		
 	}
 }

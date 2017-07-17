@@ -7,6 +7,6 @@ import javafx.util.Pair;
 public interface Piece {
 	
 	
-	public  ArrayList<Pair<Integer,Integer>>  getMovesFrom(int i, int j) ;
+	public  ArrayList<Pair>  getMovesFrom(int i, int j) ;
 
 }

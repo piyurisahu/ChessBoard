@@ -16,18 +16,18 @@ public class TestKing {
 	public void getListOf_NextMoves()
 	{
 		King king=new King();
-		ArrayList<Pair<Integer, Integer>> actual=king.getMovesFrom(3, 4);
+		ArrayList<Pair> actual=king.getMovesFrom(3, 4);
 	
 		assertFalse(actual.contains(new Pair<Integer, Integer>(3,4)));
 		
-		assertTrue(actual.contains(new Pair<Integer, Integer>(2,3)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(2,4)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(2,5)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(3,5)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(4,5)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(4,4)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(4,3)));
-		assertTrue(actual.contains(new Pair<Integer, Integer>(3,3)));
+		assertTrue(actual.contains(new Pair(2,3)));
+		assertTrue(actual.contains(new Pair(2,4)));
+		assertTrue(actual.contains(new Pair(2,5)));
+		assertTrue(actual.contains(new Pair(3,5)));
+		assertTrue(actual.contains(new Pair(4,5)));
+		assertTrue(actual.contains(new Pair(4,4)));
+		assertTrue(actual.contains(new Pair(4,3)));
+		assertTrue(actual.contains(new Pair(3,3)));
 		
 	}
 

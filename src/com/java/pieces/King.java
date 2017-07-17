@@ -8,19 +8,19 @@ public class King implements Piece {
 
 	
 		@Override
-		public ArrayList<Pair<Integer, Integer>> getMovesFrom(int i, int j) {
+		public ArrayList<Pair> getMovesFrom(int i, int j) {
 		
-			ArrayList<Pair<Integer, Integer>> listOfMoves=new ArrayList<Pair<Integer, Integer>>();
+			ArrayList<Pair> listOfMoves=new ArrayList<Pair>();
 		
 			
-			listOfMoves.add(new Pair<Integer,Integer>(i,j+1));
-			listOfMoves.add(new Pair<Integer,Integer>(i+1,j));
-			listOfMoves.add(new Pair<Integer,Integer>(i-1,j));
-			listOfMoves.add(new Pair<Integer,Integer>(i,j-1));
-			listOfMoves.add(new Pair<Integer,Integer>(i-1,j+1));
-			listOfMoves.add(new Pair<Integer,Integer>(i-1,j-1));
-			listOfMoves.add(new Pair<Integer,Integer>(i+1,j+1));
-			listOfMoves.add(new Pair<Integer,Integer>(i+1,j-1));
+			listOfMoves.add(new Pair(i,j+1));
+			listOfMoves.add(new Pair(i+1,j));
+			listOfMoves.add(new Pair(i-1,j));
+			listOfMoves.add(new Pair(i,j-1));
+			listOfMoves.add(new Pair(i-1,j+1));
+			listOfMoves.add(new Pair(i-1,j-1));
+			listOfMoves.add(new Pair(i+1,j+1));
+			listOfMoves.add(new Pair(i+1,j-1));
 			return listOfMoves;
 		}
 
