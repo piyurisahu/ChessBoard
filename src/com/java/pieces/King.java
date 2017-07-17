@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import javafx.util.Pair;
 
-public class King implements Piece {
+public class King extends Piece {
 
 	
 		@Override

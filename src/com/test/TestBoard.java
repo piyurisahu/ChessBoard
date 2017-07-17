@@ -34,8 +34,4 @@ public class TestBoard
 		King king=new King();
 		assertEquals(king.getClass(), board.GetPiece(3, 4).getClass());
 	}
-	
-	
-
-
 }

@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 import javafx.util.Pair;
 
-public class Pawn implements Piece {
+public class Pawn extends Piece {
 	@Override
 	public ArrayList<Pair> getMovesFrom(int i, int j) {
 
